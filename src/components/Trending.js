@@ -13,7 +13,7 @@ function Trending() {
       )
       .then((response) => {
         setMovies(response.data.results);
-        console.log(movies);
+        // console.log(movies.data.results);
       })
       .catch((error) => {
         console.log("The data was not returned", error);
