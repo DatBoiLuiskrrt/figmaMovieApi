@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 
 function TrendingCard({ film }) {
@@ -9,6 +10,7 @@ function TrendingCard({ film }) {
         alt="film poster"
       />
       <p>{film.overview}</p>
+      {console.log(film)}
     </div>
   );
 }

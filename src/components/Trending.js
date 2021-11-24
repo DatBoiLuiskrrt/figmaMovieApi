@@ -1,7 +1,8 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import TrendingCard from "./TrendingCard";
-
+// import Carousel from "react-grid-carousel";
 function Trending() {
   const [movies, setMovies] = useState([]);
 
